@@ -7,7 +7,7 @@ img{
 }
 a{
     text-decoration: none;
-    color: inherit;
+    color: inherit
 }
 ul{
     list-style: none;
@@ -18,4 +18,14 @@ ul{
 body{
     margin: 0;
     font-family: sans-serif;
+    background-color: rgb(84, 84, 84);
+}
+.menu{
+    padding: 25px 0;
+    background-color: steelblue;
+    text-align: center;
+}
+.item{
+    display: inline-block;
+    margin-right: 50px;
 }
