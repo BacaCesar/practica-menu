@@ -1,9 +1,15 @@
 *{
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 img{
     display: block;
     max-width: 100%;
+    height: 180px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 a{
     text-decoration: none;
@@ -18,7 +24,9 @@ ul{
 body{
     margin: 0;
     font-family: sans-serif;
-    background-color: rgb(84, 84, 84);
+    font-size: 14px;
+    background-color: rgb(48, 48, 48);
+    color: white;
 }
 .menu{
     padding: 25px 0;
@@ -28,4 +36,12 @@ body{
 .item{
     display: inline-block;
     margin-right: 50px;
+}
+.paragraph{
+    margin: 16px 0;
+}
+.footer{
+    background-color: darkcyan;
+    text-align: center;
+    padding: 100px 0;
 }
